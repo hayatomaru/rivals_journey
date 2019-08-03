@@ -1,0 +1,65 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  text-align: center;
+  background-image:url("../img/main_bg.jpg");
+  background-size: cover;
+}
+
+
+
+
+h1{
+  width:80%;
+  padding:100px 0 0;
+  margin:0px auto 30px;
+  font-size:100px;
+  border-bottom:30px double red;
+  text-shadow:2px 2px 0 #FFF, -2px -2px 0 #FFF,
+              -2px 2px 0 #FFF, 2px -2px 0 #FFF,
+              0px 2px 0 #FFF,  0 -2px 0 #FFF,
+              -2px 0 0 #FFF, 2px 0 0 #FFF;
+}
+
+h2{
+  /* margin-top:0px; */
+  text-align: left;
+  padding-left:80px;
+  font-size:40px;
+  border-left:double 20px black;
+  margin:30px 10px 0px;
+}
+
+h3{
+  font-size:27px;
+  text-align:left;
+  margin-left:60px;
+}
+
+h4{
+  width:25%;
+  height:40px;
+  font-size:20px;
+  line-height:40px;
+  margin:0px 5px;
+  padding:0 30px;
+  border-bottom:double 10px black;
+  float:left;
+}
+
+input,select{
+  width:400px;
+  height:40px;
+  font-size:18px;
+  padding:5px;
+  border:1px solid black;
+}
+
+#container{
+  background-color:white;
+  width:80%;
+  height:1400px;
+  margin:100px auto;
+  z-index:  -10;
+}
