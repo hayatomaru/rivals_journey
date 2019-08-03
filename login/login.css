@@ -1,0 +1,29 @@
+#login_menu{
+  width:1000px;
+  height:600px;
+  margin:30px auto;
+  background-color:white;
+}
+
+h2{
+  margin:20px;
+}
+
+input{
+  width:200px;
+  height:20px;
+  font-size:10px;
+  display: block;
+  margin:0px auto;
+}
+
+#login_left,#login_right{
+  width:50%;
+  float:left;
+}
+
+.btn{
+  margin:0px 165px;
+  margin-top: 40px;
+  text-decoration: none;
+}

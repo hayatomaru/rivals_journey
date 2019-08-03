@@ -1,0 +1,49 @@
+h2{
+  margin-bottom:30px;
+}
+
+#write{
+  border:none;
+}
+
+#container{
+  height:1000px;
+}
+
+#registration{
+  width:200px;
+  height:40px;
+  margin:50px auto;
+  background:#3cb371;
+  line-height: 40px;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+  float:left;
+}
+
+#left{
+  width:90%;
+  padding-top:30px;
+  margin:0px auto;
+}
+
+input,select,textarea{
+  /* float:left; */
+  width:300px;
+  height:30px;
+  text-align: left;
+  display: block;
+  margin:0px 20px;
+  border:1px solid black;
+}
+
+textarea{
+  height:200px;
+}
+
+#error{
+  text-align: left;
+  color:#3cb371;
+  margin-top:10px;
+}

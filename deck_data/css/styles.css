@@ -1,0 +1,323 @@
+body{
+  text-align: center;
+  background-image:url("../img/background.jpg");
+  background-attachment: fixed;
+}
+
+h1{
+  /* text-shadow:0px 3px 0px white; */
+  font-size:65px;
+  padding:0px;
+  margin:0px 10px;
+}
+
+/* 全体構成 */
+#container{
+  width:80%;
+  /* padding:200px; */
+  margin:0px auto;
+  background-color:white;
+}
+
+
+
+/* デッキデータ */
+#first_wrapper{
+  padding-top:80px;
+}
+
+/* デッキ名 */
+#deck{
+  width:80%;
+  height:500px;
+  /* border:2px solid black; */
+  text-align:left;
+  /* padding-top: ; */
+  margin:0px auto;
+}
+
+#deck_name{
+  width:100%;
+  height:100px;
+  border:2px solid black;
+  /* float:left; */
+}
+
+#deck_name h1{
+  width:60%;
+  float:left;
+}
+
+#deck_type{
+  width:35%;
+  float:right;
+}
+
+.group{
+  width:150px;
+  padding:5px;
+  text-align:center;
+  color:white;
+  background:#4169e1;
+  border-radius:3px;
+  margin:7px 10px;
+  float:right;
+  /* border:2px solid black; */
+}
+
+/* データ部分 */
+
+
+#deck_data{
+  width:100%;
+  font-size:30px;
+}
+
+.boxes{
+  margin:0px;
+  padding:0px;
+  width:50%;
+  height:195px;
+  float:left;
+  text-align:center;
+  /* border:2px solid black; */
+}
+
+.boxes_mini{
+  width:130px;
+  height:50px;
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+  background:white;
+  line-height: 50px;
+}
+
+#element1{
+  background: #fa8072;
+}
+
+#element2{
+  background: #87cefa;
+}
+
+#element3{
+  background: #98fb98;
+}
+
+#element4{
+  background: #dda0dd;
+}
+
+
+@media(max-width:980px){
+  #deck{
+    height:900px;
+  }
+
+
+  .boxes{
+    width:100%;
+  }
+}
+
+/* #element1{
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#element2{
+  border-bottom:5px solid black;
+}
+
+#element3{
+  border-right:5px solid black;
+} */
+
+.left-logo{
+  font-size:32px;
+  float:left;
+  font-weight:bold;
+  margin:10px 20px;
+  color:#66FF33	;
+}
+
+.right-menu li{
+  float:right;
+  margin:5px 20px;
+  list-style:none;
+}
+
+.right-menu a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.btn {
+  width:200px;
+  height:40px;
+  padding:10px;
+  font-size: 30px;
+  background:#ffd700;
+  border-radius:10px;
+  margin:0 auto;
+  cursor:pointer;
+  display:block;
+  user-select:none;
+  text-decoration: none;
+  box-shadow:0px 5px 0px #ffd700;
+  border:1px solid white;
+}
+
+.big{
+  font-size:70px;
+}
+
+.logo-pic{
+  margin-top:35px;
+}
+
+.dekki{
+}
+
+.dekki p{
+  font-size:30px;
+}
+
+
+/* デッキごとの勝率 */
+.character{
+  width:85%;
+  height:300px;
+  margin:30px auto 10px;
+  border:5px solid black;
+}
+
+.icon{
+  float:left;
+  width:20%;
+  height:300px;
+  border-right:5px solid black;
+}
+
+.icon img{
+  height:200px;
+  width:auto;
+  margin:20px auto 0px;
+}
+
+.photo{
+  height:215px;
+}
+
+.icon p{
+  height:80px;
+  text-align:center;
+  font-size:26px;
+  line-height:60px;
+  /* color:#fffafa; */
+  font-weight:bold;
+  border-top:5px solid black;
+  /* text-shadow:1px 1px 0 #000 ; */
+}
+
+.data{
+  width:50%;
+  height:300px;
+  /* background:#008000; */
+  float:left;
+  border-right:5px solid black;
+}
+
+.score{
+  height:110px;
+  background:;/*仮*/
+  line-height:110px;
+  font-size:48px;
+  /* float:left; */
+  border-bottom:5px solid black;
+}
+
+
+.box1{
+  width:25%;
+  height:110px;
+  /* margin-left:10px; */
+  float:left;
+}
+
+/* .right-border{
+  border-right:5px solid black;
+} */
+
+
+.win_per{
+  width:100%;
+  height:90px;
+  border-bottom:5px solid black;
+}
+
+.box2{
+  width:50%;
+  float:left;
+  font-size:48px;
+  line-height: 90px;
+}
+
+.percent{
+  width:30%;
+}
+
+.percent_single{
+  width:20%;
+}
+
+.select{
+  width:100%;
+  height:70px;
+}
+
+.S-btn{
+  width:70px;
+  height:20px;
+  padding:5px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius:10px;
+  margin:5px;
+  cursor:pointer;
+  user-select:none;
+  float:left;
+}
+
+.controll{
+  width:100px;
+  height:70px;
+  float:left;
+}
+
+.win_plus,.win_minus{
+  background:#ff6347;
+  /* border:1px solid white; */
+  /* box-shadow:0px 5px 0px #ff6347; */
+}
+
+.lose_plus,.lose_minus{
+  background:#1e90ff;
+  /* border:1px solid white; */
+  /* box-shadow:0px 5px 0px #1e90ff; */
+}
+
+.reset{
+  background:#fdd35c;
+  /* border:1px solid white; */
+  /* box-shadow:0px 5px 0px #fdd35c; */
+}
+
+.memo{
+  height:100px;
+}
+
+.border{
+  border:1px solid black;
+}

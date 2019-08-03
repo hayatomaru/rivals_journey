@@ -1,0 +1,23 @@
+.btn{
+  width:25%;
+}
+
+.select{
+  width: 46%;
+  height: 120px;
+  margin: 10px 20px;
+  background-color: rgba(100, 149, 237, 0.4);
+  float: left;
+}
+
+.detail{
+  height:40px;
+  margin:10px 20px;
+  display:inline-block;
+}
+
+@media(max-width:990px){
+  .select{
+    width:95%;
+  }
+}
